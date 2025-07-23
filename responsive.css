@@ -1,0 +1,278 @@
+@media screen and (max-width: 768px) {
+/* Responsive styles for smaller screens */
+ 
+  /* Header adjustments */
+  .header-top,
+  .header-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+   .clinic-name {
+    font-size: 18px;
+    margin: 0 ;
+  }
+  .nav-links {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px; */
+    display: none; /* Hide nav links on small screens */
+  }
+
+  /* .nav-links a {
+    margin: 8px 0;
+    font-size: 13px;
+  } */
+
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 250px;
+  }
+   .hero-content{
+    width: 150px;
+    margin-right: 5px;
+   }
+  .hero-content h1 {
+    font-size: 15px;
+  }
+
+  .hero-content p {
+    font-size: 12px;
+  }
+
+  .hero-image {
+    width: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+  }
+
+  .hero-image img {
+    width: 100px;
+    height: 120px;
+  }
+
+  /* Services Section */
+  .services{
+    background-image: none;
+  }
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    align-items: center;
+    gap: 10px;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+
+  .services-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+  }
+  .services-item h4{
+    font-size: 10px;
+    margin: 0;
+  }
+  .services-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .box {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .box img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .box p {
+    font-size: 10px
+  }
+
+  /* Testimonials Section */
+  .testimonials-section {
+    padding: 20px 10px;
+  }
+  
+.testimonials-section h2 {
+    font-size: 18px;
+    margin-bottom: 0%;
+  }
+
+   #prevBtn,
+  #nextBtn {
+    display: none; /* Hide buttons on small screens */
+  }
+  /* #prevBtn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 200px;
+    left: 35%;
+  }
+
+  #nextBtn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 50%;
+    top: 200px;
+  } */
+
+  .carousel-wrapper {
+    flex-direction: column;
+    height: 260px;
+  }
+
+  .carousel-btn {
+    margin: 10px auto;
+    padding: 5px 10px;  
+    font-size: 16px;
+  }
+
+
+  .testimonials-grid {
+    
+   display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 100%;
+    height: 200px;
+  }
+
+  .testimonial-card {
+    width: 80px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 85%;
+  }
+
+  /*timeline section */
+      
+    
+/*blog section */
+  .blog-section {
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  /* About Section */
+  .about-us {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+.about-right{
+  padding: 0;
+}
+  .about-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .about-right h2 {
+    font-size: 20px;
+  }
+
+  .about-right p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  /* Footer Section */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .footer > div {
+    width: 100%;
+  }
+
+  .footer .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+
+.footer .contact img{
+  margin-left: 20px;
+}
+
+.footer .location img{
+  margin-left: 20px;
+}
+.footer-right .contact{
+       margin-left: 15px;
+       margin-bottom: 0;
+}
+
+.footer-right .location{
+       margin-left: 5px;
+}
+.footer-right .contact p img {
+  column-gap: 0;
+}
+  .footer-right .location p img {
+  column-gap: 0;
+}
+.footer-center .timing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} 
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer h3 {
+    font-size: 15px;
+  }
+
+  .progress {
+    width: 0;
+    height: 50px;
+  }
+.progress .progress-value {
+    display: none;
+  }
+}
+
+
